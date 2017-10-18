@@ -1,0 +1,31 @@
+1. 安装框架jar包
+2. 导入jar包
+	2.1  导入spring框架jar包
+	2.2 导入hibernate框架jar包
+ 	2.3 导入三方依赖的包
+ 	2.4 mysql驱动包
+3. 配置web.xml
+	3.1 配置spring的IOC容器
+	3.2 配置SpringMVC的控制器（servlet）
+	3.3 配置编码
+	3.4 配置HiddenHttpMethodFilter（REST）
+4. 配置SpringMVC
+	4.1 导入命名空间
+	4.2 配置扫描的包
+	4.3 配置视图解析器
+	4.4 配置静态资源
+	4.5 注解
+5. 配置Spring
+	5.1 导入命名空间
+	5.2 配置扫描的包
+	5.3 配置数据源
+	5.4 配置配置DataSource
+	5.5 整合hibernate
+		5.5.1 配置SessionFactory
+		5.5.2 配置hibernate的事务管理器
+6. SSH整合测试
+	6.1 新建test测试包
+	6.2 新建一个Junit测试类
+	6.3 测试数据源
+	6.4 测试SessionFactory
+	6.5 测试操作数据库表（session）
